@@ -10,7 +10,8 @@ function show_bug($msg){
 }
 
 //定义css、img、js常量
-define("SITE_URL","http://1122.com/");
+#define("SITE_URL","http://1122.com/");
+define("SITE_URL","localhost");
 define("CSS_URL",SITE_URL."shop/public/Home/css/"); //css
 define("IMG_URL",SITE_URL."shop/public/Home/img/"); //img
 define("JS_URL",SITE_URL."shop/public/Home/js/"); //js
